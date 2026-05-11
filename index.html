@@ -292,8 +292,8 @@ body{font-size:20px!important;}
 .site-footer .ft-title{font-size:19px!important;}
 </style>
 
-<!-- ===== wy-full-protection v98-L1L8 ===== -->
-<meta name="wy-full-protection" content="v98-L1L8">
+<!-- ===== wy-full-protection v98-L1L8.2 ===== -->
+<meta name="wy-full-protection" content="v98-L1L8.2">
 <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
 <meta name="googlebot" content="noindex,nofollow,noarchive,noai,noimageai">
 <meta name="bingbot" content="noindex,nofollow,noarchive">
@@ -307,13 +307,16 @@ body{font-size:20px!important;}
 <style id="wy-preguard">
   /* L4 預護：頁面預設隱藏，origin OK 才解除 */
   html{visibility:hidden!important;background:#fff!important;}
-  /* L3 · 列印／另存 PDF 全白無警語 */
+</style>
+<style id="wy-print-block">
+  /* L3 · 列印／另存 PDF 全白無警語（獨立 style，永不被移除）*/
   @media print{
     html,body{background:#fff!important;}
     html *,body *{display:none!important;visibility:hidden!important;
       color:#fff!important;background:#fff!important;}
     body{display:block!important;visibility:visible!important;
       background:#fff!important;margin:0!important;padding:0!important;}
+    body::before,body::after{display:none!important;content:""!important;}
   }
   @page{margin:0!important;size:auto!important;background:#fff!important;}
   /* 鎖定態：純白 */
