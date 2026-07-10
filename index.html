@@ -986,5 +986,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C98P1:END-->
+<!--WY-C98P2:BEGIN-->
+<style id="wy-c98p2-css">
+.c98p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c98p2-fabbox.show{display:block;}
+.c98p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c98p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c98p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c98p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c98p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c98p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c98p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c98p2-modal.open{display:flex;}
+.c98p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c98p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c98p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c98p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c98p2-close:hover{background:#e3d5b8;}
+.c98p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c98p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c98p2-tbl th,.c98p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c98p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c98p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c98p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c98p2-tbl b{color:#8b2500;}
+.c98p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c98p2-note b{color:#8b2500;}
+@media(max-width:900px){.c98p2-fabbox{right:14px;}.c98p2-tbl{font-size:11.5px;}.c98p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c98p2-fabbox" id="c98p2Box"><button class="c98p2-btn" id="c98p2Btn" type="button" aria-label="開啟全景總表"><span class="c98p2-ic">▦</span><span class="c98p2-ls"><span class="c98p2-l1">本品 · 第二品</span><span class="c98p2-l2">六大辯證節點</span></span></button></div><div class="c98p2-modal" id="c98p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c98p2-card"><button class="c98p2-close" id="c98p2Close" type="button" aria-label="關閉">×</button><h3>卷九十八品二 全景總表 · 六大辯證節點與三觀總持</h3><p class="sub">已知重問、情緒消失、捨佛求師、物質空性、聖者受貧、賣身為奴六悖論</p><table class="c98p2-tbl"><caption>六大辯證節點總覽</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>節點一：已知重問</td><td>化佛已明告曇無竭是世世善知識，仍再問善知識何人？答：欲藉十方佛最高權威背書，令信心堅固不疑；佛不奪緣，法不孤起，因薩陀波崙是曇無竭所度因緣人</td></tr><tr><td>節點二：情緒消失</td><td>昔聞聲不問七日大啼哭，今十方佛忽然不現卻只惆悵不樂？答：先時肉眼未得三昧、深心信著故大啼哭；今三昧力生、煩惱微薄、著心已離，轉為一心念師的目標導向</td></tr><tr><td>節點三：捨佛求師</td><td>已具入三昧見佛之神通，何不自問，反捨近求遠問曇無竭？答：果從因生，曇無竭世世教化是因，今日見佛是果，疑當溯因，不可因具神通而輕慢引路之師</td></tr><tr><td>節點四：捨理求事</td><td>深愛般若不著世間，何以自鄙貧窮求供具？答：法供養雖上，然世間眾生見空無所有不生喜心；五度如足、般若如導，以福（檀）助慧，借假修真</td></tr><tr><td>節點五：聖者受貧</td><td>大菩薩具足功德，何以貧窮須賣身？答：財貧好人亦有，法貧好人所無；人的證量與財的福報分開計算，宿世別業各不相代</td></tr><tr><td>節點六：賣身為奴</td><td>賣身失去自由，誰去供養師？答：捨身即是大供養，去住無在；內施為重，於外物、內物、尊嚴三層層層破執</td></tr></tbody></table><table class="c98p2-tbl"><caption>三重維度解構框架</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破除敘事矛盾 Logic</td><td>解析經文看似不合理的極端情節，梳理表層因果，還其「合理」</td></tr><tr><td>提煉修證心法 Mindset</td><td>萃取從凡夫至菩薩「轉識成智」的內在躍遷：高信低定→定慧補足、情緒收斂</td></tr><tr><td>映射中觀義理 Madhyamaka</td><td>以《中論》二諦、緣起、無我為底層代碼，揭示敘事背後的般若哲學</td></tr></tbody></table><table class="c98p2-tbl"><caption>三觀總持終極矩陣</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>緣起觀</td><td>佛不奪緣（節點一）、果生問因（節點三）——萬法相依，尊重宿緣脈絡</td></tr><tr><td>二諦觀</td><td>依俗顯真（節點四）、世俗貧富（節點五）——不廢世俗假相，圓滿第一義諦</td></tr><tr><td>無我觀</td><td>煩惱性空（節點二）、捨身破慢（節點六）——破除身見法執，定慧等持除垢</td></tr><tr><td>學術總結</td><td>菩薩每一步看似極端矛盾，實則精準踩在「不壞假名，而行實相」的雙軌之上；學佛僅恃熱情易受傷退轉，必修三昧與智慧方能如如不動</td></tr></tbody></table><p class="c98p2-note">六大辯證節點看似六個獨立的情節疑點——重複發問、情緒轉冷、捨神通求人師、自鄙貧窮、聖者受貧、賣身為奴——實則是龍樹菩薩精心佈置的六道中觀測試，共同收攝於緣起、二諦、無我三觀。已知重問與捨佛求師共同揭示「法不孤起，仗境方生」：修行不僅靠個人證量，更須尊重宿緣脈絡；捨理求事與聖者受貧共同揭示「依俗顯真」：不廢世俗假相方能圓滿第一義諦，財貧與法貧的因果各自獨立計算；情緒消失與賣身為奴共同揭示「無我觀」：從肉眼執實到三昧離著，從外物到內物到尊嚴的層層破執，定慧等持方能除垢。透視這些看似神話的敘事表象，方見緣起性空的磅礡架構——菩薩每一個極端之舉，都精準踩在「不壞假名而行實相」的雙軌之上。</p></div></div>
+<script id="wy-c98p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c98p2Btn"),BOX=document.getElementById("c98p2Box"),MODAL=document.getElementById("c98p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-vfab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c98p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C98P2:END-->
 </body>
 </html>
