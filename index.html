@@ -1039,5 +1039,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C98P2:END-->
+<!--WY-C98P3:BEGIN-->
+<style id="wy-c98p3-css">
+.c98p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c98p3-fabbox.show{display:block;}
+.c98p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c98p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c98p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c98p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c98p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c98p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c98p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c98p3-modal.open{display:flex;}
+.c98p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c98p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c98p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c98p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c98p3-close:hover{background:#e3d5b8;}
+.c98p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c98p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c98p3-tbl th,.c98p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c98p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c98p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c98p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c98p3-tbl b{color:#8b2500;}
+.c98p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c98p3-note b{color:#8b2500;}
+@media(max-width:900px){.c98p3-fabbox{right:14px;}.c98p3-tbl{font-size:11.5px;}.c98p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c98p3-fabbox" id="c98p3Box"><button class="c98p3-btn" id="c98p3Btn" type="button" aria-label="開啟全景總表"><span class="c98p3-ic">▦</span><span class="c98p3-ls"><span class="c98p3-l1">本品 · 第三品</span><span class="c98p3-l2">魔考拓撲六問</span></span></button></div><div class="c98p3-modal" id="c98p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c98p3-card"><button class="c98p3-close" id="c98p3Close" type="button" aria-label="關閉">×</button><h3>卷九十八品三 全景總表 · 魔考拓撲與大利第一利</h3><p class="sub">魔何以破、長者女不可隱蔽、賣身而愁、帝釋妄語倫理、大利第一利階位</p><table class="c98p3-tbl"><caption>魔考六問總覽</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第一問：魔何以欲破</td><td>魔常為諸佛菩薩怨家；小菩薩未得實相易破，如小樹栽小兒能破，大菩薩得無生法忍則無能破者——因緣故有小，證空即轉大</td></tr><tr><td>第二問：先前何以不破，今方隱蔽</td><td>薩陀波崙先心未定，見十方佛已得諸三昧其心乃定；定心相現、欲出魔境界，故魔來破——如負債人未欲遠去債主不遮，欲出他界則不聽去</td></tr><tr><td>第三問：魔有大力何以不殺</td><td>魔憎「作佛心」非憎壽命；諸天神法人無重罪不得妄殺，但得壞亂恐怖——魔力受制於因果法則，非無限</td></tr><tr><td>婆羅門居士界分與唯除一女</td><td>婆羅門受戒得名，餘皆通名居士；長者女獨不被隱蔽，由宿緣力（命不該絕）、善根力（世世集功德）、加持力（曇無竭神通精準投放）三力交會</td></tr><tr><td>第四問：不惜身何以憂愁</td><td>既發大心不滿其願，是故大愁；菩薩之愁源於終極目標受阻，非凡夫之愁源於所有物喪失，是為法至誠之試金石</td></tr><tr><td>第五、六問：帝釋來試與妄語倫理</td><td>諸天但知世間心，不知作佛心，故須以極端測試驗證；妄語之罪不罪繫於動機自他，真實利他無罪、虛假利他亦無罪（善巧方便），是為二諦圓融</td></tr></tbody></table><table class="c98p3-tbl"><caption>大利第一利六重階位</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>果位相對</td><td>大利：阿鞞跋致地（不退轉）／第一利：佛道（究竟）</td></tr><tr><td>六度相對</td><td>大利：五波羅蜜（前五度事相）／第一利：般若波羅蜜（第六度）</td></tr><tr><td>智慧相對</td><td>大利：般若波羅蜜體／第一利：方便力用</td></tr><tr><td>菩薩位相對</td><td>大利：初地（見道）／第一利：十地（究竟）</td></tr><tr><td>過程相對</td><td>大利：從初地至十地（歷程）／第一利：第十地（圓頂）</td></tr><tr><td>道位相對</td><td>大利：菩薩地（因地）／第一利：佛地（果地）；六重並非擇一之選擇題，而是同一發心於淺深兩端的層層遞進</td></tr></tbody></table><table class="c98p3-tbl"><caption>中觀拓撲三圓總綱</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>緣起</td><td>魔障非外來，乃出離心之緣起；無菩薩動向即無魔之障礙，心未定魔不來、定心相現魔來、已出他界魔亦不來</td></tr><tr><td>性空</td><td>考驗非懲罰，乃證空性之鍛爐；帝釋婆羅門身、心血髓買價、菩薩割肉出血三重自性空交織，燒鍛而不毀</td></tr><tr><td>中道</td><td>捨身非滅盡，乃入實相之方便；不墮斷見（身可平復如故）、不墮常見（世世喪身皆緣起假名），於世俗極度張力中展現第一義諦的絕對寂靜</td></tr><tr><td>因果不二總持</td><td>雖未具足，已住具足因緣，故言便為具足——發心之圓滿即果之具足，因地含果地之全息輪廓</td></tr></tbody></table><p class="c98p3-note">本品六問看似分別回應魔的動機、時機、力限、菩薩之愁、帝釋之試與妄語倫理，實則共構為一張中觀拓撲圖，最終收攝於緣起、性空、中道三圓。魔障並非外在實體的入侵，而是完全依賴菩薩「出離心」為緣而生起的投影——心未定時魔不需來，定心相現、欲出他界之際魔之阻力才呈指數型飆升，這正是修行升級而非退轉的偵測器。帝釋以「人心人血人髓」之極端買價相試，看似殘酷的妄語，實則是「以假顯真」的二諦圓融：手段的現象虛妄絕對服從於目的的本體真實。而「大利」與「第一利」的六重階位對應，最終匯歸於「雖未具足，已住具足因緣，故言便為具足」——這是全論對「因果不二」最凝練的表達：發心圓滿的剎那，果地的全息輪廓已然具足，不待事相圓滿方為圓滿。</p></div></div>
+<script id="wy-c98p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c98p3Btn"),BOX=document.getElementById("c98p3Box"),MODAL=document.getElementById("c98p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-vfab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c98p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C98P3:END-->
 </body>
 </html>
