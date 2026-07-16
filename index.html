@@ -1752,5 +1752,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH98P4:END-->
+<!--WY-BH98P5:BEGIN-->
+<style id="wy-bh98p5-css">
+.bh98p5-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh98p5-fabbox.show{display:block;}
+.bh98p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh98p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh98p5-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh98p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh98p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh98p5-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh98p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh98p5-modal.open{display:flex;}
+.bh98p5-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh98p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh98p5-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh98p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh98p5-close:hover{background:#dde2e6;}
+.bh98p5-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh98p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh98p5-tbl th,.bh98p5-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh98p5-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh98p5-tbl thead th:nth-child(1){width:32%;}.bh98p5-tbl thead th:nth-child(2){width:41%;}.bh98p5-tbl thead th:nth-child(3){width:27%;}
+.bh98p5-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh98p5-guan{background:#eef2f5;color:#37505f;}
+.bh98p5-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh98p5-tbl tbody tr:nth-child(even) td.bh98p5-guan{background:#e8eef2;}
+.bh98p5-tbl b{color:#8b2500;}
+.bh98p5-guan b{color:#2f6b5a;}
+.bh98p5-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh98p5-note b{color:#8b2500;}
+@media(max-width:900px){.bh98p5-fabbox{right:14px;}.bh98p5-tbl{font-size:11px;}.bh98p5-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh98p5-fabbox" id="bh98p5Box"><button class="bh98p5-btn" id="bh98p5Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh98p5-ic">譯</span><span class="bh98p5-ls"><span class="bh98p5-l1">本品 · 原文·白話·中觀</span><span class="bh98p5-l2">白話翻譯表</span></span></button></div><div class="bh98p5-modal" id="bh98p5Modal" role="dialog" aria-modal="true"><div class="bh98p5-card"><button class="bh98p5-close" id="bh98p5Close" type="button" aria-label="關閉">×</button><h3>第5品 · 經臺供養‧先法後人‧居士神變‧因貪發心‧法愛之執 原文↔白話↔中觀 翻譯表</h3><p class="sub">《大智度論》卷九十八 · 釋薩陀波崙品之餘 · 第五品論主釋義（五番問答：已通利何須書卷供養‧法寶何以先於說法之人‧耽於五欲何來神變‧先見威德豈是發心正因‧已證空性何以仍著佛相）。與第一品經文原典重疊之敘事段落已依鐵律核實剔除，不重複收錄。 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh98p5-tbl"><caption>《大智度論》卷98‧第五品‧論主五番問答釋經臺供養與居士神變因貪發心‧原文｜白話翻譯｜中觀概念（共10段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh98p5-src">問曰：曇無竭是大菩薩，得聞持等諸陀羅尼；般若波羅蜜義，已自通利、憶持，何用七寶臺，書般若經卷，著中供養？</td><td>問：曇無竭是位大菩薩，已經證得聞持等種種陀羅尼；對般若波羅蜜的義理，也早已通達熟練、憶持不忘，為什麼還需要用七寶臺，把般若經卷書寫下來，安放在臺中供養呢？</td><td class="bh98p5-guan"><b>問一·已通利何須書卷供養</b>——此問直指供養形式與內在證量之間看似多餘的落差：既然曇無竭已然通達般若、憶持不忘，書卷供養豈非畫蛇添足？此問實則觸及「法」的傳布為何仍需藉助有相的形式媒介這一根本問題。</td></tr><tr><td class="bh98p5-src">答曰：雖有種種因緣，略說有二義：一者、眾生心行不同，或樂見經卷，或樂聞演說。二者、曇無竭身為白衣，現有家屬。鈍根眾生或作是念：「此有居家，必有染著，何能以畢竟清淨無著般若波羅蜜利益眾生？自未無著，何能以無著法教化？」是故書其經文，著七寶牒上，眾寶供養；諸天、龍、鬼神皆亦共來恭敬，供養花香、幡蓋，雨於七寶。眾生見者，增益信根，則以此法示傳佛語，案文演教勸發。一切寶臺莊嚴之具及薩陀波崙問釋提桓因，如經中說。七寶印印者，是曇無竭真實印，常自手執以印於經。有人言：七寶印者，有求佛道七大神，是執金剛杵，常給曇無竭菩薩使守護經文，不令魔及魔民改更錯亂，為貴敬般若故。有人但聞演說而發心者，有人見其莊嚴文字而歡喜發心者；是故莊嚴寶臺，用金牒書，七寶印印。</td><td>答：雖然背後有種種因緣，簡略來說有兩層意義：第一，眾生的心性根機各不相同，有的人喜歡親眼見到經卷文字，有的人則喜歡聽聞講說演述。第二，曇無竭示現為在家居士之身，看起來擁有家眷親屬。根機遲鈍的眾生或許會這樣想：「這個人既然有家室，必定會有所染著繫縛，怎麼能夠用畢竟清淨、無所執著的般若波羅蜜來利益眾生呢？自己都還沒有做到無所執著，又怎麼能用無執著的法來教化他人呢？」因此才將經文書寫下來，安放在七寶牒上，以眾多珍寶供養；諸天、龍、鬼神等也都一同前來恭敬禮敬，供養花香、幡蓋，並且從空中降下七寶。眾生見到這樣的景象，便能增長信心的根基，如此便能藉由這樣的方式，展示、傳布佛陀所說的話語，依照經文演述教法、勸發眾生的道心。一切寶臺的莊嚴器具，以及薩陀波崙詢問釋提桓因的種種問題，都如經文中所說的一樣。所謂「七寶印」，是曇無竭真實所用的印信，經常親自手持著用來蓋印在經卷之上。也有人說：所謂「七寶印」，是有求佛道的七位大神，也就是手持金剛杵的護法，經常供給曇無竭菩薩使用，用來守護經文，不讓魔以及魔的眷屬加以竄改錯亂，為的是要尊崇敬重般若波羅蜜的緣故。有的人只是聽聞講說演述便發起道心，也有的人是見到莊嚴的經文而心生歡喜、發起道心；因此才要莊嚴寶臺，用金牒書寫經文，再蓋上七寶印。</td><td class="bh98p5-guan"><b>答一·有相供養為攝機方便</b>——此答揭示有相的莊嚴供養並非執著於相，而是隨順眾生根機不一的方便施設：利根者聞法即悟，鈍根者則需藉助莊嚴文字、寶臺印信以生信心；般若本無形無相、畢竟空寂，然為度化眾生故不妨示現種種莊嚴之相，此即「即空而有、即有而空」的中觀方便智慧。</td></tr><tr><td class="bh98p5-src">問曰：臺上書寫般若，曇無竭菩薩口所演說般若，雖二處俱有，而書寫處不能益人，何以先至臺所？</td><td>問：寶臺上書寫著般若經文，曇無竭菩薩口中也演說著般若之義，雖然這兩處都有般若存在，但書寫的經卷本身並不能直接利益他人，為什麼卻要先前往寶臺供養之處呢？</td><td class="bh98p5-guan"><b>問二·法寶何以先於說法之人</b>——此問比較「文字般若」與「言說般若」孰輕孰重：書卷本身既無法主動教化眾生，何以供養次第反而優先於能言說教化的曇無竭本人？此問觸及「法」與「人」在供養次第上的深層邏輯。</td></tr><tr><td class="bh98p5-src">答曰：所書般若，入法寶中。佛寶次第有法寶故，應先供養；曇無竭一人故，僧寶所不攝，是故先供養法寶。又曇無竭菩薩所說者雖是法，而眾生取人相故，多生著心；若見所書般若，不生人相，雖取餘相，著心少於著人生患，是故先供養經。經法諸佛尚供養，何況曇無竭及薩陀波崙！曇無竭因般若波羅蜜故得供養，所因之本，何得不先供養？是故分所供養具為二分。</td><td>答：所書寫的般若經文，屬於法寶的範疇。依照佛、法、僧三寶的次第，佛寶之後緊接著就是法寶，所以應當優先供養法寶；而曇無竭只是一個人，並不能涵蓋整個僧寶的範疇，所以才要優先供養法寶。再者，曇無竭菩薩所宣說的內容雖然也是佛法，但眾生容易執取「人相」的緣故，往往因此生起執著之心；如果見到的是書寫下來的般若經文，就不會生起對「人」的執著相，雖然仍會執取其他的相，但這種執著所帶來的過患，遠比執著於「人」來得輕微，所以才優先供養經卷。就連經文所載的法，諸佛尚且加以供養，何況是曇無竭與薩陀波崙這樣的人呢！曇無竭正是因為般若波羅蜜的緣故才得以受人供養，那麼作為根本所依的般若本身，又怎麼能不優先供養呢？因此才將所要供養的物品分作兩部分。</td><td class="bh98p5-guan"><b>答二·法為人本·先法後人</b>——此答層層辨析供養次第背後的義理：法寶先於僧寶、經卷先於說法之人，根本理由在於「人相」易生執著而「法相」執著較輕；般若波羅蜜本是曇無竭得受供養之根本所依，供養次第的安排正是要引導眾生從對「人」的攀緣，逐步導向對「法」的信解，體現中觀「依法不依人」的深意。</td></tr><tr><td class="bh98p5-src">問曰：曇無竭有六萬婇女、五欲、宮殿，云何能以所散花物化為花臺？</td><td>問：曇無竭擁有六萬名宮女、五欲的享樂、以及宮殿等世間福報，這樣的他，是如何能夠將眾人所散布供養的花朵等物，轉化成為莊嚴的花臺呢？</td><td class="bh98p5-guan"><b>問三·耽於五欲何來神變</b>——此問質疑一個看似耽溺於五欲享樂的居士菩薩，何以能夠具足轉花為臺的神通變化之力，觸及「示現五欲」與「實具道力」是否相互矛盾的問題。</td></tr><tr><td class="bh98p5-src">答曰：有人言：諸佛神力，因薩陀波崙所供養物作此變化。有人言：曇無竭是大菩薩法性生身，為度眾生故受五欲。如曇無竭菩薩名字義中說。</td><td>答：有人說，這是諸佛的神通之力，藉由薩陀波崙所供養的物品而顯現出這樣的變化。也有人說，曇無竭其實是大菩薩以法性所生之身，只是為了度化眾生的緣故，才示現領受五欲的享樂。這就如同在解說曇無竭菩薩名字含義的地方所說的一樣。</td><td class="bh98p5-guan"><b>答三·法性生身·受欲而不染</b>——此答並陳兩種解釋而不強加定論，其中「法性生身、為度眾生故受五欲」一說尤其深刻：菩薩示現五欲享樂，只是隨順世間度化眾生的方便相，其法性之體並不因此而染著，恰如蓮花處於淤泥而不染塵，展現「即世間而出世間」的中觀實踐風格。</td></tr><tr><td class="bh98p5-src">問曰：菩薩法，先於眾生中起悲心，欲度眾生苦故，求阿耨多羅三藐三菩提。今但見曇無竭神力威德，云何發心？</td><td>問：依照菩薩道的法則，應當是先對眾生生起悲憫之心，因為想要救度眾生脫離苦難，才進一步發願求取無上正等正覺。但如今這些女子只不過是見到了曇無竭的神通威德，為什麼就能因此發起菩提心呢？</td><td class="bh98p5-guan"><b>問四·先見威德豈是正因</b>——此問以菩薩道發心的標準次第（先悲心後發願）質疑長者女等人發心之因緣：僅僅因為見到神通威德而發心，是否偏離了以慈悲為本的菩薩正因，觸及發心動機是否純正的根本問題。</td></tr><tr><td class="bh98p5-src">答曰：發心有種種：有聞說法而發心者，有於眾生起慈悲而發心者，有見神通力、大威德而發心者，然後漸漸而生悲心，如《智印經》中說。依愛而斷愛，依慢而斷慢。如人聞道法，愛著是法故，捨五欲出家。又有聞某甲得阿羅漢道，而生高心：「此人無勝我事，彼尚能爾，我何不能？」而生大精進，得阿羅漢道。佛道中亦如是。長者女等及五百女人常深貪勢力自在樂，聞往古有人神力變化，寶物具足，人中受天樂；後見曇無竭、臺觀、宮殿，在大法座上坐，天人供養；又見所供養物於虛空中化成大臺，心即大喜，發難遭想，知皆從福德因緣可辦是事，是故皆發作佛心。所聞發心者，行皆次第行。如《毘摩羅鞊經》中說：「愛、慢等諸煩惱，皆是佛道根本。」是故女人見是事已，生愛樂心，知以福德因緣可得是事，故皆發心。因是愛、慢，後得清淨好心，故言佛道根本，譬如蓮花生污泥。發心已作願：「如曇無竭所為，我等亦當得是！」時，薩陀波崙等頭面禮曇無竭菩薩。花、香等供養不貴故，先以供養；身貴重，故後禮拜。禮拜已，說本求般若因緣。如經中說：「我本求般若時，聞空中聲，乃至我今問大師：『諸佛從何所來？去至何處？』」</td><td>答：發起菩提心的因緣有種種不同：有的人是因為聽聞說法而發心，有的人是因為對眾生生起慈悲而發心，也有的人是因為見到神通之力、廣大威德而發心，之後才漸漸生起慈悲之心，這就如同《智印經》中所說的一樣。這就好比依憑貪愛來斷除貪愛，依憑慢心來斷除慢心。譬如有人聽聞了修道之法，因為愛樂這個法的緣故，便捨棄五欲、出家修行。又譬如有人聽說某人已經證得阿羅漢道，便生起爭勝之心：「這個人並沒有勝過我的地方，他尚且能夠做到，我為什麼不能？」因此生起廣大的精進之心，最終證得阿羅漢道。求佛道也是同樣的道理。長者女等人以及五百位女子，向來深深貪戀權勢與自在享樂，如今聽聞往昔有人能夠神力變化、財寶具足，在人間享受如同天人一般的快樂；後來又親眼見到曇無竭端坐在臺觀宮殿之中的大法座上，受到天人的恭敬供養；再見到眾人所供養的物品在虛空中化為莊嚴寶臺，心中頓時大為歡喜，生起了難逢難遇之想，明白這一切都是由於福德因緣才能夠成就的事，因此都發起了成佛之心。凡是因聽聞、見聞而發心的人，修行都會依循次第漸進而行。就如同《毘摩羅鞊經》中所說：「貪愛、我慢等種種煩惱，其實都是成就佛道的根本。」所以這些女子見到這樣的景象之後，心生愛樂喜好，明白憑藉福德因緣便能夠成就這樣的境界，因此都發起了道心。正是憑藉著這樣的貪愛與我慢之心，日後才能獲得清淨美好的道心，所以說煩惱是佛道的根本，就好比蓮花生長在污泥之中一般。發心之後便立下誓願：「如同曇無竭菩薩所成就的境界，我們也應當能夠獲得！」這時，薩陀波崙等人向曇無竭菩薩行頭面禮足之禮。由於花、香等供養之物並不貴重，所以先用來供養；而自身較為貴重，所以之後才行禮拜之禮。禮拜完畢之後，便訴說自己當初求取般若的因緣經過。就如經文中所說：「我本來求取般若的時候，聽聞了空中的聲音，乃至我如今問大師說：『諸佛是從何處而來？又去到什麼地方？』」</td><td class="bh98p5-guan"><b>答四·煩惱為道·蓮花污泥喻</b>——此答提出極具深意的中觀洞見：貪愛、我慢等煩惱本身，恰恰可以成為趣向佛道的根本動力，正如蓮花必須生長於污泥之中方能綻放清淨；發心的因緣次第有種種差異，不必拘泥一格，見神通而發心與聞悲心而發心，同樣可以次第漸進、終抵清淨，此即「煩惱即菩提」的中觀辯證，不離世間染污而成就出世清淨。</td></tr><tr><td class="bh98p5-src">問曰：薩陀波崙得諸大三昧，所謂破無明、觀諸法性等，云何不知空而取佛相、深生愛著？</td><td>問：薩陀波崙已經證得了種種廣大的三昧，也就是破除無明、觀照諸法實性等等三昧境界，為什麼卻不能了知空性的道理，反而執取佛的相貌、深深生起愛著之心呢？</td><td class="bh98p5-guan"><b>問五·已證空性何以仍著佛相</b>——此問將薩陀波崙的證量與其情感表現對比對照：既然已經證得破無明、觀法性等甚深三昧，理應通達空性，為何仍對佛相流露出如此深切的愛著？此問直探智慧證量與情感執著能否並存的根本矛盾。</td></tr><tr><td class="bh98p5-src">答曰：若新發意菩薩雖能總相知諸法空、無相，於諸佛所深愛著故，不能解佛相畢竟空，雖知空而不能與空合。何以故？諸佛有無量無邊實功德，是菩薩利根故，深入、深著。若佛不為是菩薩說空者，是菩薩為愛佛故，能自滅親族，何況餘人！但以解空故無是事。薩陀波崙深著諸佛故不能知，而問大師：「今為我說諸佛來去相，我見佛身無厭足故，常不離見諸佛。」</td><td>答：如果是初發心的菩薩，雖然能夠總相了知諸法皆空、皆無自相，但由於對諸佛深生愛著的緣故，仍然無法真正理解佛相也是畢竟空寂的，雖然在道理上知道空，卻無法真正與空性相契合。這是什麼緣故呢？因為諸佛具有無量無邊真實的功德，這位菩薩又是利根之人，所以對佛才會如此深入、深切地愛著。如果佛不為這樣的菩薩宣說空的道理，這位菩薩恐怕會因為對佛的愛戀之深，甚至不惜毀滅自己的親族，何況是其他人呢！只是因為已經理解空性的緣故，才不會有這樣的事情發生。薩陀波崙正是因為對諸佛深深愛著，所以才無法了知諸佛去來之相，因此才向大師請問：「如今請為我解說諸佛來去的相貌，因為我見到佛身便心滿意足、無有厭足，所以總是不願離開親見諸佛。」</td><td class="bh98p5-guan"><b>答五·愛著與空慧的辯證張力</b>——此答坦然揭示修行歷程中理智證悟與情感執著之間的落差：縱使已能總相了知諸法空義，深切的愛著仍可能使人難以將「空」的道理與親身的境界真正契合為一；正因如此，佛才需一再為利根深著的菩薩宣說畢竟空義，令解慧與證量同步深化，這正說明中觀空義的體證，是需要層層深化、非一蹴可幾的漸進歷程。</td></tr></tbody></table><p class="bh98p5-note">本表為卷九十八第五品「論主釋義」五番問答之原文‧白話‧中觀三欄逐段對照，共十段；與第一品重疊之經文原典一大段已剔除不重複收錄。白話忠於原意、不增不減。　中觀關鍵詞：有相供養為攝機方便　依法不依人　法性生身受欲不染　煩惱即菩提　愛著與空慧的辯證</p></div></div>
+<script id="wy-bh98p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh98p5Btn"),BOX=document.getElementById("bh98p5Box"),MODAL=document.getElementById("bh98p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+var CBOX=document.getElementById("c98p5Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh98p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH98P5:END-->
 </body>
 </html>
