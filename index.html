@@ -1584,5 +1584,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH98P1:END-->
+<!--WY-BH98P2:BEGIN-->
+<style id="wy-bh98p2-css">
+.bh98p2-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh98p2-fabbox.show{display:block;}
+.bh98p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh98p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh98p2-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh98p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh98p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh98p2-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh98p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh98p2-modal.open{display:flex;}
+.bh98p2-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh98p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh98p2-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh98p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh98p2-close:hover{background:#dde2e6;}
+.bh98p2-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh98p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh98p2-tbl th,.bh98p2-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh98p2-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh98p2-tbl thead th:nth-child(1){width:32%;}.bh98p2-tbl thead th:nth-child(2){width:41%;}.bh98p2-tbl thead th:nth-child(3){width:27%;}
+.bh98p2-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh98p2-guan{background:#eef2f5;color:#37505f;}
+.bh98p2-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh98p2-tbl tbody tr:nth-child(even) td.bh98p2-guan{background:#e8eef2;}
+.bh98p2-tbl b{color:#8b2500;}
+.bh98p2-guan b{color:#2f6b5a;}
+.bh98p2-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh98p2-note b{color:#8b2500;}
+@media(max-width:900px){.bh98p2-fabbox{right:14px;}.bh98p2-tbl{font-size:11px;}.bh98p2-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh98p2-fabbox" id="bh98p2Box"><button class="bh98p2-btn" id="bh98p2Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh98p2-ic">譯</span><span class="bh98p2-ls"><span class="bh98p2-l1">本品 · 原文·白話·中觀</span><span class="bh98p2-l2">白話翻譯表</span></span></button></div><div class="bh98p2-modal" id="bh98p2Modal" role="dialog" aria-modal="true"><div class="bh98p2-card"><button class="bh98p2-close" id="bh98p2Close" type="button" aria-label="關閉">×</button><h3>第2品 · 論主六番問答·善知識因緣與捨身供養釋疑 原文↔白話↔中觀 翻譯表</h3><p class="sub">《大智度論》卷九十八 · 釋薩陀波崙品之餘 · 第二品論主釋義（六番問答：重問善知識之疑‧前後憂愁反應之異‧捨易求難之疑‧法供養財供養之辨‧大菩薩何以貧窮‧賣身買者身分之疑）＋論末一段定心斷貪入城唱賣。與第一品經文原典重疊之開篇十方諸佛安慰、賣身試煉等段落已依鐵律核實剔除，不重複收錄。 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh98p2-tbl"><caption>《大智度論》卷98‧第二品‧論主六番問答釋善知識因緣與捨身供養‧原文｜白話翻譯｜中觀概念（共13段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh98p2-src">問曰：上化佛已為說「曇無竭是汝世世善知識」，今何以復問「何等是我善知識」？</td><td>問：前面所說的化佛已經開示過「曇無竭是你生生世世的善知識」了，為什麼現在又要再問「什麼人是我的善知識」呢？</td><td class="bh98p2-guan"><b>問一·重複發問的疑點</b>——此問質疑經文敘事表面上的重複：既然已蒙開示善知識之名，何以又重問；此為全品六番論主問答的第一問，開啟對經文細節之所以如此安排的深層追究。</td></tr><tr><td class="bh98p2-src">答曰：以佛勅於善知識中倍應恭敬愛念故。又以欲於十方佛所聞曇無竭功德，欲自令信心堅固不疑故問。十方佛答，如經中說。薩陀波崙是曇無竭所度因緣人故，諸佛佐助示導。或有諸菩薩佐助佛所應度者，令至佛所。</td><td>答：這是因為佛曾教誡，對於善知識應當加倍恭敬愛念的緣故。又是因為薩陀波崙想要在十方諸佛面前親自聽聞曇無竭的功德，想要使自己的信心更加堅固而不再有疑慮，所以才又發問。十方諸佛的回答，就如經中所說的那樣。薩陀波崙是曇無竭菩薩所要度化的因緣之人，所以諸佛才輔助引導他。有的時候，也會有其他菩薩輔助佛所應度化的眾生，引導他們到佛的座前。</td><td class="bh98p2-guan"><b>答一·重複中的深化功能</b>——看似重複的發問，實則具有雙重作用：一是落實加倍恭敬的教誡，二是透過諸佛親口印證來鞏固信心；經文的表面重複，實為信心建立過程中不可省略的環節。</td></tr><tr><td class="bh98p2-src">問曰：上聞虛空聲不問故，七日啼哭；今不見十方佛，何以不大憂愁、更求見佛，但欲於曇無竭所問諸佛去來事？</td><td>問：前面聽到虛空中的聲音時，因為沒有問清楚而七天七夜啼哭；如今見不到十方諸佛，為什麼不像先前那樣大為憂愁、進一步尋求見佛，反而只想在曇無竭菩薩那裡請問諸佛去來的事呢？</td><td class="bh98p2-guan"><b>問二·前後反應不一致的疑點</b>——此問對比薩陀波崙兩次不見的不同反應（聞聲不得問而七日啼哭，見佛而不見則轉向他處求問），追究這種反應落差背後的修行階次差異。</td></tr><tr><td class="bh98p2-src">答曰：薩陀波崙先時但有肉眼，未得三昧，以深心信著善法故，大啼哭；今得諸三昧力，又見十方佛，諸煩惱微薄，著心已離故，但一心念：「我當何時見曇無竭？」</td><td>答：薩陀波崙先前只擁有凡夫的肉眼，尚未證得三昧，因為以深切之心信仰執著於善法的緣故，才會大為啼哭；如今他已證得種種三昧之力，又親見了十方諸佛，種種煩惱都已微薄淡化，執著之心已經遠離，所以他只是一心思念：「我什麼時候才能見到曇無竭？」</td><td class="bh98p2-guan"><b>答二·煩惱微薄故無復大憂</b>——同樣是不見，此答揭示關鍵差異在於修證階次：肉眼凡夫因執著而憂愁啼哭，證得三昧、煩惱轉薄之後，即使仍有所求，也不再落入憂苦的情緒糾結，而是轉為清明專一的憶念。</td></tr><tr><td class="bh98p2-src">問曰：若薩陀波崙得是三昧力，何以不還入三昧，問十方諸佛從何所來、去至何所，而欲見問曇無竭？</td><td>問：如果薩陀波崙已經證得這樣的三昧之力，為什麼不重新入於三昧之中，直接請問十方諸佛從哪裡來、去到哪裡，反而想要向曇無竭菩薩請問這件事呢？</td><td class="bh98p2-guan"><b>問三·捨易求難的疑點</b>——此問質疑薩陀波崙捨棄自入三昧直接問佛這條看似更直接的途徑，反而選擇繞道向曇無竭請問，是否有違效率。</td></tr><tr><td class="bh98p2-src">答曰：十方佛上以種種因緣讚「曇無竭世世是汝師」，是故欲問。是時，薩陀波崙念曇無竭菩薩，是我先世因緣，是故生恭敬、尊重心。以有大功德故尊重，是先世因緣故恭敬愛樂。</td><td>答：因為十方諸佛之前已經用種種因緣讚歎「曇無竭生生世世都是你的老師」，所以他才想要向曇無竭請問。這時，薩陀波崙思念曇無竭菩薩，是因為這是他過去世以來的因緣，所以生起恭敬、尊重之心。因為曇無竭有大功德，所以受到尊重；因為是過去世的因緣，所以生起恭敬愛樂之心。</td><td class="bh98p2-guan"><b>答三·善知識因緣不可越級</b>——答語點出修行並非單純追求效率捷徑：即使有能力自入三昧問佛，若佛已明示善知識因緣所在，依止善知識次第而問，才是尊重因緣、不躐等而進的正確途徑。</td></tr><tr><td class="bh98p2-src">問曰：先說「薩陀波崙不大著世間事，深愛般若波羅蜜故，愁憂啼哭」；今何以自鄙貧窮，無以供養？但以好心隨師意，則是法供養，何用華香為？</td><td>問：前面說「薩陀波崙不太執著世間之事，因為深愛般若波羅蜜的緣故而憂愁啼哭」；如今為什麼又自嘆貧窮，覺得沒有東西可以供養呢？只要以美好的心隨順老師的心意，這樣就已經是法供養了，何必還需要用到花香等物呢？</td><td class="bh98p2-guan"><b>問四·法供養與財供養的疑點</b>——此問從不著世間事的前提出發，質疑既然已經超越世間執著，為何還要在意有形的供養器具，觸及法供養與財供養孰輕孰重的根本問題。</td></tr><tr><td class="bh98p2-src">答曰：法供養雖上，而世間眾生見遠來求法而空無所有，則不發喜心；以世法故，求供養具。復次，五波羅蜜為助般若波羅蜜法，助法中檀波羅蜜為首；亦欲為起發眾人：「薩陀波崙是智人、善人，貧窮而能供養，何況我等！」復次，諸善法行時、思惟時，其味各異；薩陀波崙欲行布施味，是故求供養具。</td><td>答：法供養雖然是最上等的供養，可是世間的眾生看見有人遠道而來求法卻兩手空空、什麼都沒有，就不容易生起歡喜之心；因此為了隨順世間的作法，才需要尋求供養的器具。再者，五波羅蜜是輔助般若波羅蜜的法門，在這些輔助之法當中，又以布施波羅蜜為首要；也是想要藉此激勵眾人：「薩陀波崙是這樣有智慧、有善根的人，貧窮尚且能夠供養，何況我們呢！」再者，修行各種善法、思惟各種善法的時候，其中的滋味各不相同；薩陀波崙這時想要修行布施的滋味，所以才尋求供養的器具。</td><td class="bh98p2-guan"><b>答四·財供養的方便與滋味</b>——答語從三個層次說明財供養的必要：一是為了令世間眾生生歡喜心的度眾方便，二是布施波羅蜜作為五度之首的次第意義，三是不同善法各有其獨特的修行滋味不可偏廢；法供養與財供養並非互斥，而是相輔相成。</td></tr><tr><td class="bh98p2-src">問曰：薩陀波崙是大菩薩，能見十方佛，又得諸深三昧，何以貧窮？</td><td>問：薩陀波崙是一位大菩薩，能夠親見十方諸佛，又證得種種深妙的三昧，為什麼還會貧窮呢？</td><td class="bh98p2-guan"><b>問五·大菩薩何以貧窮的疑點</b>——此問觸及一個常見的世俗預期落差：修證高深的菩薩理應福報具足，為何薩陀波崙卻貧困無以供養，質疑修證與世間福報之間是否應當成正比。</td></tr><tr><td class="bh98p2-src">答曰：有人言：此人捨家求佛道，雖生富家，道里懸遠，一身獨去，不齎財物。有人言：雖是大人，宿世小罪因緣故，生貧窮家。貧有二種：一者、財貧，二者、功德法貧。功德法貧，最大可恥！財貧，好人亦有；法貧，好人所無。無有華香者，無有上妙寶華，又以少故言無。</td><td>答：有人說：這個人捨棄家業尋求佛道，雖然出生在富裕的家庭，但因為路途遙遠，孤身一人前行，並沒有攜帶財物。也有人說：雖然他是了不起的大人物，但因為過去世微小罪業因緣的緣故，才會出生在貧窮的家庭。貧窮有兩種：一種是財物的貧窮，另一種是功德法義的貧窮。功德法義的貧窮，才是最大的恥辱！財物的貧窮，好人也可能遭遇；但法義的貧窮，好人是不會有的。經文中說他沒有花香，是說他沒有上等美妙的寶花，也是因為數量稀少的緣故才說沒有。</td><td class="bh98p2-guan"><b>答五·財貧與法貧的根本區分</b>——此答提出一組深刻的對比：財物的匱乏無關修證高下，好人亦可能遭逢；唯有功德法義的匱乏，才是真正應當羞恥之事。薩陀波崙雖財物貧乏，法義卻無比富足，兩種貧窮不可混為一談。</td></tr><tr><td class="bh98p2-src">問曰：若賣身與他，誰買此物往供養師？</td><td>問：如果把自己的身體賣給了別人，那麼又是誰買下這心、血、骨髓這些東西，拿去供養老師呢？</td><td class="bh98p2-guan"><b>問六·買者身分的疑點</b>——此問追究賣身情節在邏輯上的細節：既然身體已賣予他人，供養曇無竭菩薩所需的財物又從何而來，觸及敘事情節內部的因果連貫性。</td></tr><tr><td class="bh98p2-src">答曰：捨身即是大供養，去住無在。有人言：是人賣身取財，因人供養，我為供養故，賣身為奴。又人言：爾時世好，人皆知法，雖自賣身，主必能聽供養而還。復次，是人發深心，欲行檀波羅蜜；唯有己身，是故賣是內物。於外、內物中，內施為重，惜之深故。「我世世喪身無數，未曾為清淨法故，今為供養說法者故喪是身，大得法利。」</td><td>答：捨棄自己的身體，這件事本身就已經是廣大的供養了，至於身體最後是留下還是離去，其實並不是重點所在。有人說：這個人賣身換取錢財，是為了藉由買主的因緣去供養老師，我是為了供養的緣故，才賣身作奴僕。又有人說：當時世道良善，人人都懂得佛法，雖然他自賣己身，買主必定會答應讓他先去供養、事後再回來。再者，這個人發起深切之心，想要修行布施波羅蜜；而他所擁有的唯有自己這個身體，所以才拿這個內在之物去變賣。在外在的財物與內在的身體之間，布施內在之物的分量更重，因為人們對自己的身體愛惜得最深。正如經中所說：「我生生世世喪失身命無數次，卻從來沒有為了清淨的佛法而喪身；如今為了供養說法之人而捨棄這個身體，因此獲得廣大的法益。」</td><td class="bh98p2-guan"><b>答六·捨身供養的本質在發心</b>——這段解答提出多種可能的情節詮釋，但共同指向同一核心：捨身的功德重點不在於身體最終的物理去向或買賣的具體安排，而在於發深心行檀波羅蜜這一念，內財布施因其割捨之難，功德遠勝外財，這正是本段情節真正的中觀要義所在。</td></tr><tr><td class="bh98p2-src">薩陀波崙定心，斷貪惜身意，於道中入一大城——欲得賣買如意故，入此大城。一心欲賣身，除羞愧、破憍慢故，唱言：「誰須人？」</td><td>薩陀波崙心意已定，斷除了貪戀愛惜身體的念頭，在路途中進入一座大城——因為想要順利完成買賣的緣故，才進入這座城。他一心想要賣身，為了去除羞愧之心、破除憍慢之心的緣故，便高聲喊道：「誰需要人？」</td><td class="bh98p2-guan"><b>斷貪破慢的雙重修持</b>——此段點出薩陀波崙在市集唱賣這一行為背後的雙重修持意涵：不僅是斷貪（放下對身體的愛惜），更是破憍慢（放下顏面尊嚴），兩種煩惱同時對治，方能成就這看似卑下卻極為徹底的布施之行。</td></tr></tbody></table><p class="bh98p2-note">本表為卷九十八第二品「論主釋義」六番問答與論末一段之原文‧白話‧中觀三欄逐段對照，共十三段；與第一品重疊之經文原典部分已剔除不重複收錄。白話忠於原意、不增不減。　中觀關鍵詞：善知識因緣不可越級　財貧與法貧　內財布施最重　斷貪破慢</p></div></div>
+<script id="wy-bh98p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh98p2Btn"),BOX=document.getElementById("bh98p2Box"),MODAL=document.getElementById("bh98p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+var CBOX=document.getElementById("c98p2Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh98p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH98P2:END-->
 </body>
 </html>
