@@ -1640,5 +1640,61 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH98P2:END-->
+<!--WY-BH98P3:BEGIN-->
+<style id="wy-bh98p3-css">
+.bh98p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh98p3-fabbox.show{display:block;}
+.bh98p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh98p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh98p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh98p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh98p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh98p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh98p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh98p3-modal.open{display:flex;}
+.bh98p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh98p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh98p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh98p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh98p3-close:hover{background:#dde2e6;}
+.bh98p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh98p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh98p3-tbl th,.bh98p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh98p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh98p3-tbl thead th:nth-child(1){width:32%;}.bh98p3-tbl thead th:nth-child(2){width:41%;}.bh98p3-tbl thead th:nth-child(3){width:27%;}
+.bh98p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh98p3-guan{background:#eef2f5;color:#37505f;}
+.bh98p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh98p3-tbl tbody tr:nth-child(even) td.bh98p3-guan{background:#e8eef2;}
+.bh98p3-tbl b{color:#8b2500;}
+.bh98p3-guan b{color:#2f6b5a;}
+.bh98p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh98p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh98p3-fabbox{right:14px;}.bh98p3-tbl{font-size:11px;}.bh98p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh98p3-fabbox" id="bh98p3Box"><button class="bh98p3-btn" id="bh98p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh98p3-ic">譯</span><span class="bh98p3-ls"><span class="bh98p3-l1">本品 · 原文·白話·中觀</span><span class="bh98p3-l2">白話翻譯表</span></span></button></div><div class="bh98p3-modal" id="bh98p3Modal" role="dialog" aria-modal="true"><div class="bh98p3-card"><button class="bh98p3-close" id="bh98p3Close" type="button" aria-label="關閉">×</button><h3>第3品 · 論主六番問答·魔試與帝釋考驗釋疑 原文↔白話↔中觀 翻譯表</h3><p class="sub">《大智度論》卷九十八 · 釋薩陀波崙品之餘 · 第三品論主釋義（六番問答：魔何以欲破‧魔為何遲來‧魔為何不殺但破‧薩陀波崙不惜身何以仍愁‧帝釋何以知心仍試‧帝釋何以妄語）＋論曰三段（婆羅門居士名相辨正‧唯除一長者女三說‧大利第一利階位總持）。與第一品經文原典重疊之敘事段落已依鐵律核實剔除，不重複收錄。 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh98p3-tbl"><caption>《大智度論》卷98‧第三品‧論主六番問答釋魔試與帝釋考驗‧原文｜白話翻譯｜中觀概念（共15段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh98p3-src">問曰：魔何以欲破其意？</td><td>問：魔為什麼想要破壞他的心志？</td><td class="bh98p3-guan"><b>問一·魔為何而破</b>——此問直探魔王介入敘事的動機根源，是本品六番問答的第一問，開啟對「魔」這一角色在修行敘事中所扮演角色的深層剖析。</td></tr><tr><td class="bh98p3-src">答曰：魔常為諸佛、菩薩怨家，故欲來破。復次，諸小菩薩未得諸法實相，魔及惡人能壞；若得無生法忍、住諸菩薩神通力，無能破者。如小樹栽，小兒能破；大，不可破。復次，此中自說魔破因緣，所謂「是薩陀波崙愛法故，自賣身供養般若波羅蜜及法盛菩薩，當得正聞般若波羅蜜」，如經中廣說。</td><td>答：魔向來是諸佛、菩薩的怨敵仇家，所以想要前來破壞。再者，還未證悟諸法實相的小菩薩，魔與惡人是能夠加以破壞的；但如果已經證得無生法忍、安住在菩薩神通之力當中，就沒有人能夠破壞了。就好比小樹苗，小孩子就能夠折斷它；但長成大樹之後，就無法折斷了。再者，經文中已自行說明魔想要破壞的因緣，也就是「這位薩陀波崙因為愛樂佛法的緣故，自己想要賣身供養般若波羅蜜及曇無竭菩薩，將能得以正式聽聞般若波羅蜜」，這就如經中所詳細解說的一樣。</td><td class="bh98p3-guan"><b>答一·魔的界限在於證量</b>——此答揭示魔的破壞力並非無限：未證實相的初機菩薩如小樹苗易受摧折，一旦證得無生法忍便如大樹不可撼動；魔之來去，恰恰成為衡量修行證量深淺的一面鏡子。</td></tr><tr><td class="bh98p3-src">問曰：若魔欲壞薩陀波崙，先來聞空中聲及見十方佛時，何以不壞？今方隱蔽諸婆羅門、居士，令不聞其聲？</td><td>問：如果魔想要破壞薩陀波崙，那麼在他先前聽聞空中聲音、以及親見十方諸佛的時候，為什麼不加以破壞？如今卻才隱蔽了城中的婆羅門與居士，讓他們聽不到他叫賣的聲音呢？</td><td class="bh98p3-guan"><b>問二·魔為何遲來</b>——此問追究魔王介入時機的合理性：既然薩陀波崙求法之心自始至終未變，魔為何獨獨選在此刻出手，觸及外魔與內心狀態之間的因果對應關係。</td></tr><tr><td class="bh98p3-src">答曰：薩陀波崙先心未定，惜身未盡；見十方佛已，得諸三昧，其心乃定。今定心相現，是故魔驚。若菩薩心未定，未能動魔；若大菩薩其心已定，魔亦不來。薩陀波崙今欲定心出魔境界，是故魔來。譬如負債人，未欲遠去，債主不遮；欲出他界，則不聽去。</td><td>答：薩陀波崙先前的心志尚未堅定，愛惜身體的念頭還沒有完全消除；等到親見十方諸佛之後，證得了種種三昧，他的心志才真正堅定下來。如今堅定的心相已經顯現，所以魔才感到驚懼。如果菩薩的心志還沒有堅定，是不足以驚動魔的；如果是大菩薩，心志已經堅定，魔也不會前來。薩陀波崙現在正想要以堅定的心志超出魔的境界範圍，所以魔才前來阻撓。這就好比欠債的人，如果沒有想要遠走高飛，債主並不會加以阻攔；但如果他想要離開債主的勢力範圍，債主便不會放他離去。</td><td class="bh98p3-guan"><b>答二·負債人喻·心定方招魔試</b>——以欠債人喻，精妙地說明魔的出現恰恰是心志堅定、即將超越魔境的訊號，而非軟弱的象徵；修行路上考驗加劇，往往正是即將突破的前兆，而非退轉的警訊。</td></tr><tr><td class="bh98p3-src">問曰：魔有大力，何以不殺此菩薩，而但破壞？</td><td>問：魔擁有廣大的力量，為什麼不直接殺害這位菩薩，卻只是加以破壞阻撓呢？</td><td class="bh98p3-guan"><b>問三·魔為何不殺</b>——此問將魔的威脅推向極端假設，藉由魔為何不殺而只破壞的提問，反過來揭示魔的力量其實受到更高法則的約束。</td></tr><tr><td class="bh98p3-src">答曰：魔本不嫉其壽命，但憎其作佛心，是故欲壞。又復諸天神法，人無重罪，不得妄殺，但得壞亂恐怖。若神無此法，則人無活者，是故不殺。</td><td>答：魔原本並不嫉恨他的壽命長短，只是憎惡他想要成佛的心志，所以才想要加以破壞。再者，諸天神界自有其法則，只要世人沒有犯下重大的罪業，天神便不得任意殺害，只能加以擾亂、使人恐懼。如果天神沒有這樣的法則約束，那麼世間人便無法存活了，所以魔不會殺害他。</td><td class="bh98p3-guan"><b>答三·魔亦受法則制約</b>——此答揭示看似無所不能的魔，實則也受到不得妄殺無重罪者這條天神法則的約束；魔的破壞力有其邊界，這正說明世間縱有障礙萬千，究竟仍在因果法則的規範之中，並非全然失控的混沌。</td></tr><tr><td class="bh98p3-src">論曰：婆羅門性中生，受戒故，名婆羅門；除此，通名居士。居士，真是居舍之士，非四姓中居士。</td><td>論曰：出生在婆羅門種姓之中，又受持婆羅門戒法的人，才稱為「婆羅門」；除此之外，通稱為「居士」。所謂「居士」，是真正居家而有德行、有資財的人士，並不是特指四種種姓當中的「居士」種姓。</td><td class="bh98p3-guan"><b>種姓名相的辨正</b>——龍樹於此特意辨明婆羅門與居士二詞的精確用法，看似只是名相考據，實則體現論主行文一絲不苟、字字皆須落實的治學態度，為後文的義理闡發奠定嚴謹基礎。</td></tr><tr><td class="bh98p3-src">論曰：除一長者女者，以其為佛道世世集功德故，魔不能蔽。復有人言：是薩陀波崙不應死故，令一女人聞。有人言：是曇無竭菩薩神通力故，令長者女得聞。</td><td>論曰：經文中所說「唯獨一位長者女沒有被遮蔽」，是因為她過去世以來，為了成就佛道，生生世世積聚功德的緣故，魔無法遮蔽她。另外也有人說：是因為這位薩陀波崙不應當就此死去，所以才讓一位女子能夠聽聞。還有人說：是因為曇無竭菩薩神通之力的緣故，才使長者女得以聽聞。</td><td class="bh98p3-guan"><b>三說並陳的解經方法</b>——龍樹對唯除一長者女這一情節提出三種可能的解釋（女子宿世功德、菩薩不應死之因緣、曇無竭神通加持），並不強加定論，而是並列諸說供讀者參詳，展現論主解經時多角度並陳、不獨斷一說的開放態度。</td></tr><tr><td class="bh98p3-src">問曰：薩陀波崙既不惜身，雖無人買，亦不應愁！</td><td>問：薩陀波崙既然已經不顧惜自己的身體了，那麼即使沒有人購買，也不應該心生憂愁才對！</td><td class="bh98p3-guan"><b>問四·不惜身為何仍愁</b>——此問從邏輯一致性出發，質疑既然已達不惜身的境界，憂愁情緒的殘留似乎顯得矛盾，觸及外在灑脫與內在願心之間的關係。</td></tr><tr><td class="bh98p3-src">答曰：既發大心，不滿其願，是故大愁。</td><td>答：正因為他已經發起了廣大的心願，如今心願卻未能圓滿達成，所以才會心生大憂愁。</td><td class="bh98p3-guan"><b>答四·願心未滿故愁</b>——此答點出憂愁的根源並非對身體的貪惜，而是對願心未滿的懸念；菩薩之愁，是願力層次的憂愁，而非凡夫我執層次的憂愁，兩者性質截然不同。</td></tr><tr><td class="bh98p3-src">問曰：釋提桓因報得知他心，應知薩陀波崙心已決定，今何以來試？</td><td>問：釋提桓因憑藉果報自然而然就能知曉他人心念的能力，應當早已知道薩陀波崙的心志已經堅定不移了，為什麼如今還要前來試探呢？</td><td class="bh98p3-guan"><b>問五·天帝何須再試</b>——此問質疑天帝既有他心通的能力，理應早已洞悉薩陀波崙心志，何必多此一舉前來試探，觸及神通能力的侷限與試煉的真正目的。</td></tr><tr><td class="bh98p3-src">答曰：諸天但知世間人心，作佛、不作佛心，非其所知。除佛，無有能知其為佛道故與授記。復次，釋提桓因欲多所引導故來試之，令聞見者，皆發心求佛。又如金銀等諸寶，不以輕賤故燒鍛磨打；菩薩亦如是，若能割肉出血、破骨出髓，其心不動，是正定菩薩。是故天帝來試。</td><td>答：諸天神只能知曉世間人的心念，至於是否會成就佛道之心，並不是他們的能力所能了知的。除了佛以外，沒有人能夠了知眾生是否會為了佛道而蒙受授記。再者，釋提桓因是想要藉此多方引導眾生，所以才前來試探，使聽聞見到這件事的人，都能夠因此發心求佛。又好比金、銀等珍寶，不會因為它們貴重而不去加以燒煉、鍛造、磨光、敲打；菩薩也是如此，如果能夠在割肉出血、破骨取髓之際，心志依然不為所動，這樣才是真正心志堅定的菩薩。因此天帝才前來試探。</td><td class="bh98p3-guan"><b>答五·試煉具雙重目的</b>——此答揭示天帝試探的雙重意涵：一是能力的侷限（諸天不知作佛之心），二是教育的方便（藉試煉引導大眾發心）；金銀鍛打之喻尤其精妙，真金不怕火煉，試煉本身正是印證與淬鍊菩薩心志的必要工序。</td></tr><tr><td class="bh98p3-src">問曰：帝釋是大天王，何以妄語作是言「我欲祠天，須人心、血、髓」？</td><td>問：帝釋是尊貴的大天王，為什麼要說謊，說出「我想要祭祀天神，需要人的心、血、骨髓」這樣的話呢？</td><td class="bh98p3-guan"><b>問六·天王何以妄語</b>——此問從戒律的角度質疑天帝的言行：身為尊貴天王，理應持守不妄語戒，為何卻以謊言試探菩薩，觸及聖者示現方便與妄語戒之間的張力。</td></tr><tr><td class="bh98p3-src">答曰：若以慳貪、瞋恚煩惱欲求自利故妄語，是故為罪。帝釋若作實身、實語，菩薩則不信；是故如其國法，天祠所須，為其信受故。</td><td>答：如果是因為慳貪、瞋恚等煩惱，想要謀求自身利益而說謊，這樣才構成罪業。帝釋如果用真實的身相、說真實的話語前來，薩陀波崙未必會相信；因此才依照他們天界的慣常作法，假借天神祭祀所需之名，為的是讓薩陀波崙能夠信受不疑。</td><td class="bh98p3-guan"><b>答六·方便語非妄語罪</b>——此答釐清妄語的判罪關鍵不在言語表相的真假，而在發心是否出於煩惱自利；帝釋化身試探雖屬言語不實，卻是出於接引度化的悲心方便，故不落入妄語之罪，此為聖者示現與凡夫妄語的根本分野。</td></tr><tr><td class="bh98p3-src">論曰：是時，薩陀波崙信其語而大歡喜：「我得大利！」大利者，阿鞞跋致地；第一利者，是佛道。大利者，五波羅蜜；第一利者，般若波羅蜜。大利者，般若波羅蜜；第一利者，般若波羅蜜方便力。大利者，菩薩初地；第一利者，十地。大利者，從初地乃至十地；第一利者，第十地。大利者，菩薩地；第一利者，佛地。如是等分別。</td><td>論曰：這時，薩陀波崙相信了婆羅門的話語，心中大為歡喜，說：「我得到了大利益！」所謂「大利」，是指阿鞞跋致（不退轉）的果位；「第一利」，則是指佛道本身。「大利」，是指五種波羅蜜；「第一利」，是指般若波羅蜜。「大利」，是指般若波羅蜜；「第一利」，是指般若波羅蜜的方便之力。「大利」，是指菩薩的初地；「第一利」，是指第十地。「大利」，是指從初地乃至十地；「第一利」，是指其中的第十地。「大利」，是指菩薩之地；「第一利」，是指佛地。像這樣層層區分。</td><td class="bh98p3-guan"><b>大利第一利的階位總持</b>——龍樹以一連串大利、第一利的對舉，將修行的每一個階段都放進相對圓滿與究竟圓滿的座標中層層疊加，最終指向佛地；這種層層遞進的分判法，正說明修行路上每一個大利都只是通往下一個第一利的階梯，不應就此止步自滿。</td></tr></tbody></table><p class="bh98p3-note">本表為卷九十八第三品「論主釋義」六番問答與論曰三段之原文‧白話‧中觀三欄逐段對照，共十五段；與第一品重疊之經文原典部分已剔除不重複收錄。白話忠於原意、不增不減。　中觀關鍵詞：魔的界限在於證量　負債人喻　願心未滿故愁　妄語罪的判定關鍵　大利第一利階位</p></div></div>
+<script id="wy-bh98p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh98p3Btn"),BOX=document.getElementById("bh98p3Box"),MODAL=document.getElementById("bh98p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+var CBOX=document.getElementById("c98p3Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh98p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH98P3:END-->
 </body>
 </html>
